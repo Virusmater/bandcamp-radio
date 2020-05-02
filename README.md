@@ -20,7 +20,7 @@ Python 3.8
 VLC should be installed
 # install
 ```bash
-kompot@pc:~$ sudo apt install python3-pip git -y
+kompot@pc:~$ sudo apt install python3-pip git vlc -y
 kompot@pc:~$ sudo pip3 install git+https://github.com/Virusmater/bandcamp-radio
 ```
 # example
