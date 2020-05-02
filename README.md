@@ -18,6 +18,11 @@ Tested only under GNU/Linux (Ubuntu 20.04 in my case)
 Python 3.8
 
 VLC should be installed
+# install
+```bash
+kompot@pc:~$ sudo apt install python3-pip git -y
+kompot@pc:~$ sudo pip3 install git+https://github.com/Virusmater/bandcamp-radio
+```
 # example
 ```bash
 $: bandcamp-radio -g punk garage crust-punk trash -g metal black-metal -s new best
