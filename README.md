@@ -13,8 +13,10 @@ optional arguments:
                         slice type separated by space. possible values are: new best rec. best if not supplied
 ```
 # requirements
-Tested only under GNU/Linux (Ubuntu 20.04) in my case
+Tested only under GNU/Linux (Ubuntu 20.04 in my case)
+
 Python 3.8
+
 VLC should be installed
 # example
 ```bash
