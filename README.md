@@ -13,7 +13,7 @@ optional arguments:
                         slice type separated by space. possible values are: new best rec. best if not supplied
 ```
 # requirements
-Tested only under GNU/Linux (Ubuntu 20.04 in my case)
+Tested only under GNU/Linux (Ubuntu 20.04 in my case), but as reported, works on Windows as well.
 
 Python 3.8
 
