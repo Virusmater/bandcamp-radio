@@ -2,7 +2,7 @@ import vlc
 from vlc import State, Meta
 import random
 from bandcamp_radio import bandcamp
-from bandcamp_radio.Getch import Getch
+from bandcamp_radio.Getch import _Getch
 from os import system, name
 import argparse
 
@@ -95,9 +95,10 @@ def main():
     print(events.event_attach(vlc.EventType.MediaPlayerMediaChanged, MediaChanged))
     player.set_media_list(playlist)
     player.play()
-    getch = Getch()
+    getch = _Getch()
     while player.get_state().value != State.Stopped:
         command = getch.impl()
+        """print(command)"""
         control(command)
 
 
